@@ -1,0 +1,32 @@
+.MobileFilterClass{
+    background-color:#e9ecef;
+    position: absolute;
+    width: max-content;
+    z-index: 1;
+    border-radius: 5px;
+    padding-inline: 5px;
+}
+
+.cartPage{
+    margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+    .responsive-text {
+        font-size: 25px;
+      }
+}
+
+@media (min-width: 768px) {
+    .responsive-text {
+        font-size: 40px;
+      }
+}
+
+.LoadingDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+  }
